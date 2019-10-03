@@ -108,7 +108,9 @@ def changing_alan
         }
      }
      
-     programmer_hash[:alan_kay]
+     programmer_hash[:alan_kay].delete(:known_for)
+     programmer_hash[:alan_kay][:known_for] = "GUI"
+     
      
 end
 
