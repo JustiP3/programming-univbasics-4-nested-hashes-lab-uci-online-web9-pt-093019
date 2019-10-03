@@ -107,8 +107,8 @@ def changing_alan
           :languages => ["C"]
         }
      }
-     new_hash = {:known_for => "GUI"}
-     programmer_hash[:alan_kay].merge!(:known_for) 
+     
+     programmer_hash[:alan_kay]
      
 end
 
